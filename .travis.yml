@@ -4,7 +4,7 @@ jobs:
   include:
     - stage: Tests 
       script:
-       - xcodebuild test -project BussRoutesApp.xcodeproj -scheme BussRoutesApp -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' | xpretty
+       - xcodebuild test -project Application/Lab9Task2.2.xcodeproj -scheme Lab9Task2 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' | xpretty
     - stage: Deploy 
       script: 
-       - xcodebuild build -project BussRoutesApp.xcodeproj -scheme BussRoutesApp -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build | xpretty
+       - xcodebuild build -project Application/Lab9Task2.2.xcodeproj -scheme Lab9Task2 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build | xpretty
