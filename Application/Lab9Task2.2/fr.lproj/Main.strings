@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "1HS-07-McF"; */
+"1HS-07-McF.normalTitle" = "Retour";
+
+/* Class = "UILabel"; text = "To city:"; ObjectID = "D2A-oW-hFc"; */
+"D2A-oW-hFc.text" = "Vers la ville:";
+
+/* Class = "UILabel"; text = "WeatherLabel"; ObjectID = "DNA-hk-0S5"; */
+"DNA-hk-0S5.text" = " ";
+
+/* Class = "UILabel"; text = "CityLabel"; ObjectID = "JYS-Mx-QOK"; */
+"JYS-Mx-QOK.text" = " ";
+
+/* Class = "UILabel"; text = "From city:"; ObjectID = "Q4u-QO-Zgp"; */
+"Q4u-QO-Zgp.text" = "De la ville:";
+
+/* Class = "UILabel"; text = "Weather:"; ObjectID = "bg1-vh-ALQ"; */
+"bg1-vh-ALQ.text" = "Conditions:";
+
+/* Class = "UILabel"; text = "Temperature:"; ObjectID = "ht6-XO-tyK"; */
+"ht6-XO-tyK.text" = "Température:";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "ipr-Ku-zQp"; */
+"ipr-Ku-zQp.text" = "Ville:";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "kWX-UK-KJr"; */
+"kWX-UK-KJr.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "TempLabel"; ObjectID = "vqA-ix-wdR"; */
+"vqA-ix-wdR.text" = " ";

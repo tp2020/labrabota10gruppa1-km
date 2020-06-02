@@ -1,0 +1,10 @@
+language: objective-c  
+osx_image: xcode11.5 
+jobs:
+  include:
+    - stage: Tests 
+      script:
+       - xcodebuild test -project Application/Lab9Task2.2.xcodeproj -scheme Lab9Task2.2 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' | xcpretty
+    - stage: Deploy 
+      script: 
+       - xcodebuild build -project Application/Lab9Task2.2.xcodeproj -scheme Lab9Task2.2 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build | xcpretty
