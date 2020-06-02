@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Trips" representedClassName="Trips" syncable="YES" codeGenerationType="class">
+        <attribute name="busId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cityFrom" optional="YES" attributeType="String"/>
+        <attribute name="cityTo" optional="YES" attributeType="String"/>
+        <attribute name="cost" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="freePlaces" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stationFrom" optional="YES" attributeType="String"/>
+        <attribute name="stationTo" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Trips" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Lab9Task2.2
+
+  Created by Alex on 13.05.2020.
+  Copyright © 2020 Alex. All rights reserved.
+*/
+"From: " = "De: ";
+"To: " = "À: ";
+"Cost: " = "Coût: ";
+"Places: " = "Des endroits: ";
