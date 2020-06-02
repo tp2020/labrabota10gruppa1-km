@@ -35,65 +35,14 @@ class ViewController: UIViewController, WeatherGetterDelegate, MKMapViewDelegate
     private let locationManager = LocationManager()
     var myInitLocation = CLLocationCoordinate2D(latitude: 32.7767, longitude: -96.7970)
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-         weather = WeatherGetter(delegate: self)
-        
-        // Set start parameters
-        map.delegate = self
-        
-        let span = MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5)
-        let region = MKCoordinateRegion(center: myInitLocation, span: span)
-        
-        map.setRegion(region, animated: true)
-          
-        // Fill database
-//        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-//        let newObject = NSEntityDescription.insertNewObject(forEntityName: "TripRecords", into: context) as NSManagedObject
-//        newObject.setValue("Dallas", forKey: "cityFrom")
-//        newObject.setValue("Tyler", forKey: "cityTo")
-//        newObject.setValue(1.1, forKey: "cost")
-//        newObject.setValue(5, forKey: "places")
-//                newObject.setValue("Dallas1", forKey: "stationFrom")
-//                newObject.setValue("Tyler2", forKey: "stationTo")
-//        do
-//        {
-//        try context.save() //Пробуем сохранить изменения в students.append(newObject)
-//        self.table.reloadData()
-//        self.view.endEditing(true)
-//        }
-//        catch let error as NSError {
-//        print("Data saving error: \(error)")
-//        }
-    }
+    
         
    // MARK: - Table view stack
 
     // To show all trips between chosen towns
     @IBOutlet weak var table: UITableView!
     
-    // Open view with all trips beween two towns
-    @IBAction func showTripsTapped(_ sender: Any) {
-        // Show table view
-        tableView.isHidden = false
 
-        // Create predicate to make request
-        let predicate = NSPredicate(format: "cityFrom == %@ and cityTo == %@", cityFromField.text!, cityToField.text!)
-
-        // Get data and save to array
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "TripRecords")
-        fetchRequest.predicate = predicate
-        do{
-            // Save data to array
-            data = try context.fetch(fetchRequest) as! [NSManagedObject]
-        }
-        catch let error as NSError {
-            print("Data loading error: \(error)")
-        }
-        self.table.reloadData()
-    }
     
     // Method to fill cells
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -167,21 +116,20 @@ class ViewController: UIViewController, WeatherGetterDelegate, MKMapViewDelegate
             
             // Write city's name to field
             whatCity(location: CLLocation(latitude: tappedCoordinate.latitude, longitude: tappedCoordinate.longitude))
-            print(tappedCoordinate.latitude, tappedCoordinate.longitude)
         }
     }
     
     // Recognize city by coordinates and write it to field
     func whatCity(location: CLLocation)
     {
-        self.locationManager.getPlace(for: location) {placemark in
+        let locationManager = LocationManager()
+        locationManager.getPlace(for: location) {placemark in
         guard let placemark = placemark else { return }
         
         var output = ""
         if let town = placemark.locality {
             output = output + "\(town)"
             }
-            self.setTown(town: output)
         }
     }
 

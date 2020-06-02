@@ -12,6 +12,11 @@
 		FA6691CC246C0EBF0060EDCC /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6691CB246C0EBF0060EDCC /* Weather.swift */; };
 		FA6691CE246C0F100060EDCC /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6691CD246C0F100060EDCC /* WeatherGetter.swift */; };
 		FA6691D6246C6A4B0060EDCC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6691D8246C6A4B0060EDCC /* Localizable.strings */; };
+		FA6D4BE924867D2A00AC1B02 /* Lab9Task2_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D4BE824867D2A00AC1B02 /* Lab9Task2_2Tests.swift */; };
+		FA6D4BF12486879100AC1B02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D4BF02486879100AC1B02 /* ViewController.swift */; };
+		FA6D4BF32486887B00AC1B02 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D4BF22486887A00AC1B02 /* WeatherGetter.swift */; };
+		FA6D4BF6248688AF00AC1B02 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D4BF4248688AF00AC1B02 /* Weather.swift */; };
+		FA6D4BF7248688AF00AC1B02 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D4BF5248688AF00AC1B02 /* LocationManager.swift */; };
 		FA7AE810246A8E550094E63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AE80F246A8E550094E63D /* AppDelegate.swift */; };
 		FA7AE812246A8E550094E63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AE811246A8E550094E63D /* SceneDelegate.swift */; };
 		FA7AE814246A8E550094E63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AE813246A8E550094E63D /* ViewController.swift */; };
@@ -20,6 +25,16 @@
 		FA7AE81C246A8E5F0094E63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7AE81B246A8E5F0094E63D /* Assets.xcassets */; };
 		FA7AE81F246A8E5F0094E63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7AE81D246A8E5F0094E63D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6D4BEB24867D2A00AC1B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7AE804246A8E550094E63D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7AE80B246A8E550094E63D;
+			remoteInfo = Lab9Task2.2;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA58BC78246AFA8E001F0BA0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -31,6 +46,13 @@
 		FA6691D7246C6A4B0060EDCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA6691D9246C6A580060EDCC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA6691DA246C6A5F0060EDCC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA6D4BE624867D2900AC1B02 /* Lab9Task2.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab9Task2.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6D4BE824867D2A00AC1B02 /* Lab9Task2_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab9Task2_2Tests.swift; sourceTree = "<group>"; };
+		FA6D4BEA24867D2A00AC1B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6D4BF02486879100AC1B02 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA6D4BF22486887A00AC1B02 /* WeatherGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
+		FA6D4BF4248688AF00AC1B02 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		FA6D4BF5248688AF00AC1B02 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		FA7AE80C246A8E550094E63D /* Lab9Task2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab9Task2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7AE80F246A8E550094E63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7AE811246A8E550094E63D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA6D4BE324867D2900AC1B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA7AE809246A8E550094E63D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +91,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA6D4BE724867D2A00AC1B02 /* Lab9Task2.2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D4BF5248688AF00AC1B02 /* LocationManager.swift */,
+				FA6D4BF4248688AF00AC1B02 /* Weather.swift */,
+				FA6D4BF22486887A00AC1B02 /* WeatherGetter.swift */,
+				FA6D4BF02486879100AC1B02 /* ViewController.swift */,
+				FA6D4BE824867D2A00AC1B02 /* Lab9Task2_2Tests.swift */,
+				FA6D4BEA24867D2A00AC1B02 /* Info.plist */,
+			);
+			path = Lab9Task2.2Tests;
+			sourceTree = "<group>";
+		};
 		FA7AE803246A8E550094E63D = {
 			isa = PBXGroup;
 			children = (
 				FA7AE80E246A8E550094E63D /* Lab9Task2.2 */,
+				FA6D4BE724867D2A00AC1B02 /* Lab9Task2.2Tests */,
 				FA7AE80D246A8E550094E63D /* Products */,
 				FA62DA8E246A985D003CD996 /* Frameworks */,
 			);
@@ -75,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				FA7AE80C246A8E550094E63D /* Lab9Task2.2.app */,
+				FA6D4BE624867D2900AC1B02 /* Lab9Task2.2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +145,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA6D4BE524867D2900AC1B02 /* Lab9Task2.2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6D4BEF24867D2A00AC1B02 /* Build configuration list for PBXNativeTarget "Lab9Task2.2Tests" */;
+			buildPhases = (
+				FA6D4BE224867D2900AC1B02 /* Sources */,
+				FA6D4BE324867D2900AC1B02 /* Frameworks */,
+				FA6D4BE424867D2900AC1B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6D4BEC24867D2A00AC1B02 /* PBXTargetDependency */,
+			);
+			name = Lab9Task2.2Tests;
+			productName = Lab9Task2.2Tests;
+			productReference = FA6D4BE624867D2900AC1B02 /* Lab9Task2.2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FA7AE80B246A8E550094E63D /* Lab9Task2.2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7AE823246A8E5F0094E63D /* Build configuration list for PBXNativeTarget "Lab9Task2.2" */;
@@ -128,6 +190,10 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Alex;
 				TargetAttributes = {
+					FA6D4BE524867D2900AC1B02 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FA7AE80B246A8E550094E63D;
+					};
 					FA7AE80B246A8E550094E63D = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -149,11 +215,19 @@
 			projectRoot = "";
 			targets = (
 				FA7AE80B246A8E550094E63D /* Lab9Task2.2 */,
+				FA6D4BE524867D2900AC1B02 /* Lab9Task2.2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA6D4BE424867D2900AC1B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA7AE80A246A8E550094E63D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +242,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA6D4BE224867D2900AC1B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6D4BF6248688AF00AC1B02 /* Weather.swift in Sources */,
+				FA6D4BF12486879100AC1B02 /* ViewController.swift in Sources */,
+				FA6D4BF7248688AF00AC1B02 /* LocationManager.swift in Sources */,
+				FA6D4BF32486887B00AC1B02 /* WeatherGetter.swift in Sources */,
+				FA6D4BE924867D2A00AC1B02 /* Lab9Task2_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA7AE808246A8E550094E63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +269,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6D4BEC24867D2A00AC1B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7AE80B246A8E550094E63D /* Lab9Task2.2 */;
+			targetProxy = FA6D4BEB24867D2A00AC1B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA6691D8246C6A4B0060EDCC /* Localizable.strings */ = {
@@ -216,6 +310,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA6D4BED24867D2A00AC1B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBJCS6FQUM;
+				INFOPLIST_FILE = Lab9Task2.2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kohovec.Lab9Task2-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab9Task2.2.app/Lab9Task2.2";
+			};
+			name = Debug;
+		};
+		FA6D4BEE24867D2A00AC1B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBJCS6FQUM;
+				INFOPLIST_FILE = Lab9Task2.2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kohovec.Lab9Task2-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab9Task2.2.app/Lab9Task2.2";
+			};
+			name = Release;
+		};
 		FA7AE821246A8E5F0094E63D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,6 +505,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA6D4BEF24867D2A00AC1B02 /* Build configuration list for PBXNativeTarget "Lab9Task2.2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6D4BED24867D2A00AC1B02 /* Debug */,
+				FA6D4BEE24867D2A00AC1B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA7AE807246A8E550094E63D /* Build configuration list for PBXProject "Lab9Task2.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
